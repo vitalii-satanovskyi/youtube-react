@@ -8,6 +8,7 @@ import { connect } from "react-redux";
 import { youtubeLibraryLoaded } from "./store/actions/api";
 import Trending from "./containers/Trending/Trending";
 import Search from "./containers/Search/Search";
+require("dotenv").config();
 
 const API_KEY = process.env.YOUTUBE_API;
 
