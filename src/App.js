@@ -10,7 +10,8 @@ import Trending from "./containers/Trending/Trending";
 import Search from "./containers/Search/Search";
 require("dotenv").config();
 
-const API_KEY = process.env.YOUTUBE_API;
+console.log(process.env.REACT_APP_YOUTUBE_API);
+const API_KEY = process.env.REACT_APP_YOUTUBE_API;
 
 class App extends Component {
   render() {
